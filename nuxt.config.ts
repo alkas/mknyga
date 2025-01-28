@@ -6,10 +6,10 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   // To re-enable _all_ Nuxt v3 behavior, set the following options:
-  // srcDir: '.',
-  // dir: {
-  //   app: 'app'
-  // },
+  srcDir: '.',
+  dir: {
+    app: 'app'
+  },
   experimental: {
     scanPageMeta: 'after-resolve',
     sharedPrerenderData: false,
