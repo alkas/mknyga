@@ -12,8 +12,10 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxtjs/color-mode',
     '@nuxtjs/google-fonts',
+    'nuxt-typed-router',
   ],
-
+  extends: ['@shuriken-ui/nuxt'],
+  css: ['./app/assets/css/main.css'],
   i18n: {
     locales: [
       { code: 'lt', language: 'lt-LT' },
@@ -25,6 +27,7 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       "Noto Sans": true,
+      "Inter": true
     }
   },
 
@@ -37,7 +40,7 @@ export default defineNuxtConfig({
 
   //dir: {
   //  app: 'app'
-  //},
+  //  },
 
   experimental: {
     scanPageMeta: 'after-resolve',

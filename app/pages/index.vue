@@ -1,11 +1,6 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-<div class="text-red-500">sdfsdfsedfwe</div>
+  <div class="mt-20 mx-20">
+    <BaseButton to="/skaiciuokle">Skaičiuoklė</BaseButton>
+    <BaseThemeToggle />
+  </div>
 </template>
-
-<style scoped>
-
-</style>

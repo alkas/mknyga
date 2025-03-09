@@ -1,13 +1,9 @@
 <script setup lang="ts">
-
+useHead({
+  bodyAttrs: { class: 'h-full bg-muted-100 dark:bg-muted-900' },
+})
 </script>
 
 <template>
-<div>
   <slot />
-</div>
 </template>
-
-<style scoped>
-
-</style>
